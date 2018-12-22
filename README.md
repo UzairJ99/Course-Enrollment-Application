@@ -1,0 +1,2 @@
+# Course-Enrollment-Application
+This desktop application is a concept app for students at McMaster to enroll in their courses. The program was coded in Java, uses the JavaFX platform to enhance user experience, and includes a CSS stylesheet to give a modern looking GUI. Students can log in (currently only a temporary login, database will be made later), select courses to view their descriptions, add/remove courses to their cart, view their total tuition balance, and enroll. App will be further enhanced.
