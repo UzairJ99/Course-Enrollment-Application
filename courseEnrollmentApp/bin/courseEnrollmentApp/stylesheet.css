@@ -1,0 +1,107 @@
+//CSS style sheet
+
+#title {
+	-fx-font-family: 'Fira Sans SemiBold', sans-serif;
+	-fx-font-size: 26;
+	-fx-text-fill: white;
+}
+
+#basicLabel {
+	-fx-font-family: 'Arial', sans-serif;
+	-fx-font-size: 16;
+	-fx-text-fill: white;
+}
+
+#infoLabel {
+	-fx-font-size: 16;
+	-fx-text-fill: white;
+}
+
+#titleLabel {
+	-fx-font-size: 20;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-text-transform: capitalize;
+}
+
+#button {
+	-fx-background-color: #e53031;
+	-fx-background-radius: 30;
+	-fx-text-fill: white;
+	-fx-font-family: 'Arial', sans-serif;
+	-fx-font-size: 18;
+	-fx-pref-height: 40px;
+	-fx-pref-width: 200px;
+}
+
+
+#button: hover {
+	-fx-background-color: #ef4b4c;
+	-fx-background-radius: 30;
+	-fx-text-fill: white;
+	-fx-font-family: 'Arial', sans-serif;
+	-fx-font-size: 18;
+	-fx-pref-height: 40px;
+	-fx-pref-width: 200px;
+}
+
+#buttonMain {
+	-fx-background-color: #e53031;
+	-fx-background-radius: 30;
+	-fx-text-fill: white;
+	-fx-font-family: 'Arial', sans-serif;
+	-fx-font-size: 14;
+	-fx-pref-height: 40px;
+	-fx-pref-width: 140px;
+}
+
+#buttonMain: hover {
+	-fx-background-color: #ef4b4c;
+	-fx-background-radius: 30;
+	-fx-text-fill: white;
+	-fx-font-family: 'Arial', sans-serif;
+	-fx-font-size: 14;
+	-fx-pref-height: 40px;
+	-fx-pref-width: 140px;
+}
+
+#textbox {
+	-fx-pref-width: 200px;
+}
+
+#background {
+	-fx-background-color: #942222;
+}
+
+.choice-box .context-menu {
+    -fx-pref-width: 285;
+}
+
+.choice-box {
+	-fx-pref-width: 295;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+
+.list-cell:even { /* <=== changed to even */
+    -fx-background-color: #a09f9f;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+.list-cell:odd {
+    -fx-cell-hover-color: #0093ff;
+    -fx-background-color: #8e8e8e;
+}
+
+.list-cell {
+	-fx-pref-height: 43px;
+	-fx-font-size: 18px;
+	-fx-font-family: 'Arial', sans-serif;
+}
